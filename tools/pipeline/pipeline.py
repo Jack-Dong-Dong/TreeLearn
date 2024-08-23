@@ -4,6 +4,8 @@ import argparse
 import pickle
 import pprint
 import shutil
+import sys
+sys.path.append('/home/pengzhen/codes/instanceSeg/TreeLearn')  # 添加模块路径
 from tree_learn.dataset import TreeDataset
 from tree_learn.model import TreeLearn
 from tree_learn.util import (build_dataloader, get_root_logger, load_checkpoint, ensemble, 

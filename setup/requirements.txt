@@ -1,4 +1,4 @@
-spconv-cu114 # see https://pypi.org/project/spconv/ for other cuda versions of spconv
+spconv-cu111 # see https://pypi.org/project/spconv/ for other cuda versions of spconv
 munch==2.5.0
 pandas==2.0.0
 plyfile==0.9
